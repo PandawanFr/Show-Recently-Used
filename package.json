@@ -1,0 +1,16 @@
+{
+    "name": "open.recent.file",
+    "title": "Show Recently Used Items",
+    "description": "Add a menu at the top of the editor with a list of all the files shown recently",
+    "version": "0.2.1",
+    "author": "Avril Alejandro (https://github.com/DH3ALEJANDRO)",
+    "homepage": "https://github.com/DH3ALEJANDRO/Show-Recently-Used",
+    "keywords": ["avril", "files", "work", "recent", "working", "open", "document", "file", "Open", "Recently", "Used", "Items"],
+    "i18n": [ "en", "es"],
+    "package-i18n": {
+        "es": {
+            "description": "Añade un menu en la parte superior del editor con una lista de todos los archivos mostrados recientemente",
+            "title": "Mostrar Archivos Recientes"
+        }
+    }
+}
