@@ -1,6 +1,7 @@
 # Show Recently Used Items
 
-[Please help translate](https://github.com/DH3ALEJANDRO/Show-Recently-Used/pulls?q=add%20new%20languaje)
+[Please help translate](https://github.com/DH3ALEJANDRO/Show-Recently-Used/blob/master/main.js#LC33)
+[add new languaje](https://github.com/DH3ALEJANDRO/Show-Recently-Used/pulls?q=add%20new%20languaje)
 
 #### Features
  * Add a menu at the top of the editor with a list of all the files shown recently
