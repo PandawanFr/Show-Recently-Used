@@ -1,6 +1,6 @@
 # Show Recently Used Items
 
-[Please help translate](https://github.com/DH3ALEJANDRO/Show-Recently-Used/blob/master/main.js#LC33)
+[Please help translate](https://github.com/DH3ALEJANDRO/Show-Recently-Used/blob/master/main.js#LC33)<br>
 [add new languaje](https://github.com/DH3ALEJANDRO/Show-Recently-Used/pulls?q=add%20new%20languaje)
 
 #### Features
