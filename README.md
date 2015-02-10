@@ -19,3 +19,21 @@
 #### Contribution (For support & issues)
  * Pull Request
  * Please post your issues, feature changes/requests of this extension using [github](https://https://github.com/DH3ALEJANDRO/Show-Recently-Used/issues). I will try to improve this extension.
+
+#### changelog
+ * 2/09/2015 (0.2.1)
+  * fix bugs <get languaje><save storage>
+  * disable button : Reopen Closed File <empty history>
+ * 2/09/2015 (0.2.0) > error
+  * add support languaje <es, en>
+  * fix bugs <has key><initial showed>
+  * add button : Reopen Closed File
+ * 2/07/2015 (0.1.0)
+  * fix bugs <array><localStorage>
+  * disable button : Clear Items <empty history>
+ * 2/05/2015 (0.0.1)
+  * initial code
+
+[Apache License Version 2.0](https://github.com/DH3ALEJANDRO/Show-Recently-Used/blob/master/LICENSE)
+
+powered by Avril Alejandro AC-PE 2015 >>
