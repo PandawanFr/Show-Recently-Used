@@ -8,6 +8,7 @@
  * remove all recent files list
  * assign a number to set how many are displayed
  * button not save history up to restart > "brackets"
+ * exclude by file extension (name filter) > [beta intent]
 
 #### preferences
  * click on top menu > debug > and click on : Open Preferences File
