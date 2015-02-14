@@ -24,6 +24,8 @@
  * Please post your issues, feature changes/requests of this extension using [github](https://https://github.com/DH3ALEJANDRO/Show-Recently-Used/issues). I will try to improve this extension.
 
 #### changelog
+ * 2/14/2015 (0.4.0)
+  * exclude by file extension (name filter)
  * 2/10/2015 (0.3.0)
   * rewrite items menu 
  * 2/09/2015 (0.2.1)
