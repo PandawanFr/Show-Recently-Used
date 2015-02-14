@@ -10,6 +10,7 @@ define(function (require, exports, module) {
         FileViewController = brackets.getModule("project/FileViewController"),
         CommandManager     = brackets.getModule("command/CommandManager"),
         Menus              = brackets.getModule('command/Menus'),
+        FileUtils          = brackets.getModule("file/FileUtils"),
         obtainLanguaje     = brackets.getLocale(),
         menuID             = "avril.menu.clfofkg",
         itemMenuID_reopen  = "avril.menu.item.reopen",
@@ -106,6 +107,7 @@ define(function (require, exports, module) {
         }
     }
     function getPath(pt){
+        //var title = ProjectManager.makeProjectRelativeIfPossible(MainViewManager.getCurrentlyViewedFile()._path);
         var path = MainViewManager.getCurrentlyViewedPath(MainViewManager.ACTIVE_PANE);
         var registerCommand = COMMAND_ID + "_" + pt;
         return {
@@ -178,11 +180,24 @@ define(function (require, exports, module) {
             }
         }
     }
+    function exclude(){
+        //var entryded = ProjectManager.getCurrentDocument(); error
+        var path = getPath().path;
+        var sPath = FileUtils.getBaseName(path);
+        var aPath = path.substring(path.lastIndexOf("/")+1);
+        var dPath = sPath || aPath;
+        var uPath = /untitled|virusScanAvastSearch/i.test(dPath);
+        if ( uPath ) {
+            return true;
+        } else {
+            return false;
+        }
+    }
     function addButton(){
         var $path = getPath().path;
         if($path || typeof $path === "string"){
             rewrite(simpleGetDat, $path);
-            if(!hasDATA(simpleGetDat, $path)){
+            if(!hasDATA(simpleGetDat, $path) && !exclude()){
                 simpleGetDat.push($path);
                 localStorage.setItem(idStorage, JSON.stringify(getDATA(simpleGetDat)));
             }
