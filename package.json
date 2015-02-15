@@ -2,7 +2,7 @@
     "name": "open.recent.file",
     "title": "Show Recently Used Items",
     "description": "Add a menu at the top of the editor with a list of all the files shown recently",
-    "version": "0.4.0",
+    "version": "0.4.2",
     "author": "Avril Alejandro",
     "homepage": "https://github.com/DH3ALEJANDRO/Show-Recently-Used",
     "repository": {
@@ -10,11 +10,30 @@
         "url": "https://github.com/DH3ALEJANDRO/Show-Recently-Used.git"
     },
     "keywords": ["avril", "files", "work", "recent", "working", "open", "document", "file", "Open", "Recently", "Used", "Items"],
-    "i18n": [ "en", "es"],
+    "categories": ["history", "show", "resently", "items", "general"],
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "files": [
+        "main.js"
+    ],
+    "i18n": ["en", "de", "it", "es", "gl", "fr", "ru", "jp", "fi", "nl", "pt-br", "pt"],
     "package-i18n": {
         "es": {
             "description": "Añade un menu en la parte superior del editor con una lista de todos los archivos mostrados recientemente",
             "title": "Mostrar Archivos Recientes"
+        },
+        "it": {
+            "description": "Aggiungere un menu in cima all'editor con un elenco di tutti i file recentemente dimostrati",
+            "title": "Mostra file utilizzati di recente"
         }
-    }
+    },
+    "contributors": [
+        {
+            "name": "Ciara NewLie",
+            "email": "Ciara@lie.pe",
+            "url": "https://github.com/android"
+        }
+    ],
+    "license": "Apache 2.0"
 }
