@@ -24,6 +24,8 @@
  * Pull Request
  * Please post your issues, feature changes/requests of this extension using [github](https://https://github.com/DH3ALEJANDRO/Show-Recently-Used/issues). I will try to improve this extension.
 
+* thanks to [Denisov21](https://github.com/Denisov21) by the Italian translation.
+
 #### changelog
  * 2/14/2015 (0.4.0)
   * exclude by file extension (name filter)
@@ -42,6 +44,6 @@
  * 2/05/2015 (0.0.1)
   * initial code
 
-[Apache License Version 2.0](https://github.com/DH3ALEJANDRO/Show-Recently-Used/blob/master/LICENSE)
-
 powered by Avril Alejandro AC-PE 2015 >>
+
+[Apache License Version 2.0](https://github.com/DH3ALEJANDRO/Show-Recently-Used/blob/master/LICENSE)
