@@ -24,8 +24,8 @@
             "title": "Mostrar Archivos Recientes"
         },
         "it": {
-            "description": "Aggiungere un menu in cima all'editor con un elenco di tutti i file recentemente dimostrati",
-            "title": "Mostra file utilizzati di recente"
+            "description": "Aggiungere un menu in cima all'editor con un elenco di tutti i file aperti recentemente",
+            "title": "Mostra file aperti di recente"
         }
     },
     "contributors": [
