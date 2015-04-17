@@ -49,12 +49,20 @@ define(function (require, exports, module) {
             titleRESET = "Non salvare la cronologia fino al riavvio di Brackets";
             titleADD = "Aggiungere alla storia quando il file è in funzione";
             titleNoSupport = "Il tuo browser non supporta storage locale";
+        } else if (/fr/gi.test(obtainLanguaje)) {
+            NAME_EXTENSION = "Afficher Les Eléments Récents";
+            menuNAME = "Récents";
+            titleREOPEN = "Re-Ourvir Le Fichier Fermé";
+            titleCLEAR = "Tout Supprimer";
+            titleRESET = "Ne Sauvegarder L'historique Qu'au Prochain Démarage";
+            titleADD = "Ajouter À L'historique Lorsque Le Fichier Est En Cours D'utilisation";
+            titleNoSupport = "Votre Navigateur Ne Supporte Pas Le Stockage Local";
         } else {
             NAME_EXTENSION = "Show Recently Used Items";
             menuNAME = "Recent";
             titleREOPEN = "Reopen Closed File";
             titleCLEAR = "Clear Items";
-            titleRESET = "not Save History Until Reset";
+            titleRESET = "Don't Save History Until Reset";
             titleADD = "Add to History When the File is Working";
             titleNoSupport = "Your browser does not support local storage";
         }
